@@ -1,0 +1,97 @@
+<%= form_for(@product) do |f| %>
+  <% if @product.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@product.errors.count, "error") %> prohibited this product from being saved:</h2>
+
+      <ul>
+      <% @product.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :price %><br>
+    <%= f.text_field :price %>
+  </div>
+  <div class="field">
+    <%= f.label :color %><br>
+    <%= f.text_field :color %>
+  </div>
+  <div class="field">
+    <%= f.label :size %><br>
+    <%= f.text_field :size %>
+  </div>
+  <div class="field">
+    <%= f.label :season %><br>
+    <%= f.text_field :season %>
+  </div>
+  <div class="field">
+    <%= f.label :age %><br>
+    <%= f.text_field :age %>
+  </div>
+  <div class="field">
+    <%= f.label :length %><br>
+    <%= f.text_field :length %>
+  </div>
+  <div class="field">
+    <%= f.label :width %><br>
+    <%= f.text_field :width %>
+  </div>
+  <div class="field">
+    <%= f.label :weight %><br>
+    <%= f.text_field :weight %>
+  </div>
+  <div class="field">
+    <%= f.label :height %><br>
+    <%= f.text_field :height %>
+  </div>
+  <div class="field">
+    <%= f.label :sku %><br>
+    <%= f.text_field :sku %>
+  </div>
+  <div class="field">
+    <%= f.label :merchantid %><br>
+    <%= f.text_field :merchantid %>
+  </div>
+  <div class="field">
+    <%= f.label :fabric %><br>
+    <%= f.text_field :fabric %>
+  </div>
+  <div class="field">
+    <%= f.label :toxicity %><br>
+    <%= f.text_field :toxicity %>
+  </div>
+  <div class="field">
+    <%= f.label :targetgroup %><br>
+    <%= f.text_field :targetgroup %>
+  </div>
+  <div class="field">
+    <%= f.label :popularity %><br>
+    <%= f.text_field :popularity %>
+  </div>
+  <div class="field">
+    <%= f.label :industryid %><br>
+    <%= f.text_field :industryid %>
+  </div>
+  <div class="field">
+    <%= f.label :forsale %><br>
+    <%= f.text_field :forsale %>
+  </div>
+  <div class="field">
+    <%= f.label :instock %><br>
+    <%= f.text_field :instock %>
+  </div>
+  <div class="field">
+    <%= f.label :quantity %><br>
+    <%= f.text_field :quantity %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

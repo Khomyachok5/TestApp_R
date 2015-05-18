@@ -1,0 +1,45 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  price: 1.5
+  color: MyString
+  size: 
+  season: MyString
+  age: 
+  length: 
+  width: 
+  weight: 
+  height: 
+  sku: MyString
+  merchantid: 
+  fabric: MyString
+  toxicity: 
+  targetgroup: MyString
+  popularity: 1.5
+  industryid: 
+  forsale: 
+  instock: 
+  quantity: 
+
+two:
+  name: MyString
+  price: 1.5
+  color: MyString
+  size: 
+  season: MyString
+  age: 
+  length: 
+  width: 
+  weight: 
+  height: 
+  sku: MyString
+  merchantid: 
+  fabric: MyString
+  toxicity: 
+  targetgroup: MyString
+  popularity: 1.5
+  industryid: 
+  forsale: 
+  instock: 
+  quantity: 

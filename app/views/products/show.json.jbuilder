@@ -1,0 +1,1 @@
+json.extract! @product, :id, :name, :price, :color, :size, :season, :age, :length, :width, :weight, :height, :sku, :merchantid, :fabric, :toxicity, :targetgroup, :popularity, :industryid, :forsale, :instock, :quantity, :created_at, :updated_at
