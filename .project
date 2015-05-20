@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Sergey_app_no_sqlite</name>
+	<name>Sergey_app_original_modified_dbtoAWS</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -12,7 +12,6 @@
 		</buildCommand>
 	</buildSpec>
 	<natures>
-		<nature>org.radrails.rails.core.railsnature</nature>
 		<nature>com.aptana.ruby.core.rubynature</nature>
 	</natures>
 </projectDescription>
