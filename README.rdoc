@@ -11,7 +11,7 @@ Things you may want to cover:
 
 * Configuration
 
-* Database creation
+* Database whatever you wanna do 
 
 * Database initialization
 
@@ -24,5 +24,5 @@ Things you may want to cover:
 * ...
 
 
-Please feel free to use a different markup language if you do not plan to run
+Please feel free to use a different markup language if you do not want to paint it manually, all of your styles
 <tt>rake doc:app</tt>.
