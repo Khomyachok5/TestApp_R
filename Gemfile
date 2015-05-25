@@ -30,6 +30,8 @@ gem 'oj'
 
 gem 'rails_12factor'
 
+gem 'newrelic_rpm'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
