@@ -32,7 +32,9 @@ gem 'rails_12factor'
 
 gem 'newrelic_rpm'
 
-gem "sentry-raven", :git => "https://github.com/getsentry/raven-ruby.git"
+#gem "sentry-raven", :git => "https://github.com/getsentry/raven-ruby.git"
+
+gem "sentry-raven"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
