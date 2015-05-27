@@ -23,7 +23,8 @@ module TestApp
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
 	
-	#Papertrail change http://stackoverflow.com/questions/16629250/failing-to-push-to-heroku
-	config.assets.initialize_on_precompile = false
+	
   end
+  #Papertrail change http://stackoverflow.com/questions/16629250/failing-to-push-to-heroku
+	config.assets.initialize_on_precompile = false
 end
