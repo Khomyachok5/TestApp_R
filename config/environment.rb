@@ -6,4 +6,6 @@ Rails.application.initialize!
 
 
 # Including a change required for Papertrail (http://help.papertrailapp.com/kb/configuration/configuring-centralized-logging-from-ruby-on-rails-apps/)
+Rails.application.configure do
 config.logger = RemoteSyslogLogger.new('logs2.papertrailapp.com', 24096)
+end
