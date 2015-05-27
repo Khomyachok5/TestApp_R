@@ -36,6 +36,8 @@ gem 'newrelic_rpm'
 
 gem "sentry-raven"
 
+gem 'remote_syslog_logger'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
