@@ -26,5 +26,5 @@ module TestApp
 	
   end
   #Papertrail change http://stackoverflow.com/questions/16629250/failing-to-push-to-heroku
-	config.assets.initialize_on_precompile = false
+  #config.assets.initialize_on_precompile = false
 end
