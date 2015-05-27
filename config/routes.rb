@@ -9,6 +9,13 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'home#index'
 
+  
+  #BLITZ: adding a new route as required by Blitz (https://www.blitz.io/docs/rushing/authorization#/)
+  get '/mu-ba81be07-2da9cfc8-b591be0e-d74e0e68' do
+  '42'
+  end
+  
+  
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
