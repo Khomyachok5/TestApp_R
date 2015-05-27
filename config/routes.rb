@@ -11,7 +11,7 @@ Rails.application.routes.draw do
 
   
   #BLITZ: adding a new route as required by Blitz (https://www.blitz.io/docs/rushing/authorization#/)
-  get '/mu-ba81be07-2da9cfc8-b591be0e-d74e0e68' => '42'
+  get '/mu-ba81be07-2da9cfc8-b591be0e-d74e0e68' => 'home#blitzCheck'
   end
   
   
